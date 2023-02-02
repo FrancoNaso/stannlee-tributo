@@ -1,0 +1,38 @@
+.biografia{
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        width: 100%;
+        padding: 1rem 0rem;
+        text-align: start;
+    }
+
+    &__informacion{
+        text-align: start;
+        padding-bottom: 1rem ;
+        p{
+            margin-top: 1em;
+    
+        }
+    }
+    iframe{
+        padding-bottom: 2rem;
+        width: 90%;
+        height: 500px;
+    }
+a{
+    transition: all ease .3s;
+}
+
+    a:hover{
+        background-color:var(--blanco);
+        color:var(--black) ;
+        padding: 5px 20px;
+
+    }
+    
+}
